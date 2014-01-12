@@ -1,0 +1,28 @@
+                          Upload Information Template for Hobbes.nmsu.edu
+                          ===============================================
+
+        Archive Filename: slrn-0.9.8.0-os2-ssl-bin.zip
+       Short Description: slrn, text mode newsreader with scoring with SSL support
+        Long Description: slrn is a text mode newsreader that works both online and offline, is fully configurable, supports scoring and much more.
+
+      Proposed directory  /pub/os2/apps/internet/news/reader
+           for placement: 
+
+               Your name: Johannes Hromadka
+           Email address: Johannes.Hromadka@gmx.net
+    Program contact name: Thomas Schultz
+   Program contact email: tststs@gmx.de
+             Program URL: http://slrn.sourceforge.net/
+
+      Would you like the
+   contact email address
+    included in listings? no
+
+Operating System/Version: OS/2 Warp 3.0 and above
+ Additional requirements: EMX 0.9d runtime library
+                          openssl-0.9.7a-os2-bin.zip
+
+                Replaces: (none)
+
+
+

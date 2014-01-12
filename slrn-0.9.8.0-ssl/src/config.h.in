@@ -1,0 +1,357 @@
+/* src/config.h.in.  Generated from configure.in by autoheader.  */
+
+/* Define to 1 if translation of program messages to the user's native
+   language is requested. */
+#undef ENABLE_NLS
+
+/* define if your sprintf returns an int (as required by ANSI C) */
+#undef HAVE_ANSI_SPRINTF
+
+/* Define to 1 if you have the <arpa/inet.h> header file. */
+#undef HAVE_ARPA_INET_H
+
+/* Define if the GNU dcgettext() function is already present or preinstalled.
+   */
+#undef HAVE_DCGETTEXT
+
+/* Define to 1 if you have the <dirent.h> header file, and it defines `DIR'.
+   */
+#undef HAVE_DIRENT_H
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#undef HAVE_FCNTL_H
+
+/* Define to 1 if you have the `getaddrinfo' function. */
+#undef HAVE_GETADDRINFO
+
+/* Define to 1 if you have the `getcwd' function. */
+#undef HAVE_GETCWD
+
+/* Define to 1 if you have the `getdomainname' function. */
+#undef HAVE_GETDOMAINNAME
+
+/* Define to 1 if you have the `getnameinfo' function. */
+#undef HAVE_GETNAMEINFO
+
+/* Define if the GNU gettext() function is already present or preinstalled. */
+#undef HAVE_GETTEXT
+
+/* Define to 1 if you have the `gettimeofday' function. */
+#undef HAVE_GETTIMEOFDAY
+
+/* Define if you have the iconv() function. */
+#undef HAVE_ICONV
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the `isalnum' function. */
+#undef HAVE_ISALNUM
+
+/* Define to 1 if you have the `isalpha' function. */
+#undef HAVE_ISALPHA
+
+/* Define to 1 if you have the `isdigit' function. */
+#undef HAVE_ISDIGIT
+
+/* Define to 1 if you have the `ispunct' function. */
+#undef HAVE_ISPUNCT
+
+/* Define to 1 if you have the `isspace' function. */
+#undef HAVE_ISSPACE
+
+/* Define to 1 if you have the `nsl' library (-lnsl). */
+#undef HAVE_LIBNSL
+
+/* Define to 1 if you have the `socket' library (-lsocket). */
+#undef HAVE_LIBSOCKET
+
+/* Define to 1 if you have the <locale.h> header file. */
+#undef HAVE_LOCALE_H
+
+/* Define to 1 if you have the <malloc.h> header file. */
+#undef HAVE_MALLOC_H
+
+/* Define to 1 if you have the `memcpy' function. */
+#undef HAVE_MEMCPY
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the `memset' function. */
+#undef HAVE_MEMSET
+
+/* Define to 1 if you have the <ndir.h> header file, and it defines `DIR'. */
+#undef HAVE_NDIR_H
+
+/* Define to 1 if you have the <netinet/in.h> header file. */
+#undef HAVE_NETINET_IN_H
+
+/* Define to 1 if you have the `putenv' function. */
+#undef HAVE_PUTENV
+
+/* Define to 1 if you have the `setlocale' function. */
+#undef HAVE_SETLOCALE
+
+/* Define to 1 if you have the `sigaction' function. */
+#undef HAVE_SIGACTION
+
+/* Define to 1 if you have the `sigaddset' function. */
+#undef HAVE_SIGADDSET
+
+/* Define to 1 if you have the `sigemptyset' function. */
+#undef HAVE_SIGEMPTYSET
+
+/* Define to 1 if you have the `siglongjmp' function. */
+#undef HAVE_SIGLONGJMP
+
+/* Define to 1 if you have the `sigprocmask' function. */
+#undef HAVE_SIGPROCMASK
+
+/* Define to 1 if you have the <socket.h> header file. */
+#undef HAVE_SOCKET_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/dir.h> header file, and it defines `DIR'.
+   */
+#undef HAVE_SYS_DIR_H
+
+/* Define to 1 if you have the <sys/ndir.h> header file, and it defines `DIR'.
+   */
+#undef HAVE_SYS_NDIR_H
+
+/* Define to 1 if you have the <sys/socket.h> header file. */
+#undef HAVE_SYS_SOCKET_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/time.h> header file. */
+#undef HAVE_SYS_TIME_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <sys/utsname.h> header file. */
+#undef HAVE_SYS_UTSNAME_H
+
+/* Define to 1 if you have the <sys/wait.h> header file. */
+#undef HAVE_SYS_WAIT_H
+
+/* Define to 1 if you have the <termios.h> header file. */
+#undef HAVE_TERMIOS_H
+
+/* define if you have a "timezone" variable in time.h */
+#undef HAVE_TIMEZONE
+
+/* define if you have "tm_gmtoff" in struct tm */
+#undef HAVE_TM_GMTOFF
+
+/* Define to 1 if you have the `uname' function. */
+#undef HAVE_UNAME
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if you have the `vsnprintf' function. */
+#undef HAVE_VSNPRINTF
+
+/* Define the directory where your locales are */
+#undef LOCALEDIR
+
+/* file that contains the hostname of a default NNTP server */
+#undef NNTPSERVER_FILE
+
+/* hostname of a default NNTP server to use */
+#undef NNTPSERVER_NAME
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Whether you want the "setgid" patch to work (docs/slrnpull/setgid.txt) */
+#define SLRNPULL_USE_SETGID_POSTS	0
+
+/* define if you want to force the use of inews */
+#define SLRN_FORCE_INEWS		0
+
+/* define if you want cancel lock support using libcanlock */
+#define SLRN_HAS_CANLOCK  0
+
+/* define if you want slrn to map between ISO-Latin and native charsets */
+#define SLRN_HAS_CHARACTER_MAP		1
+
+/* define if you want emphasized text support */
+#define SLRN_HAS_EMPHASIZED_TEXT	1
+
+/* define if slrn should use In-Reply-To if no References are available */
+#define SLRN_HAS_FAKE_REFS		1
+
+/* define if you want slrn to generate Message-IDs */
+#define SLRN_HAS_GEN_MSGID		1
+
+/* define if you want SSL support using GNU TLS */
+#define SLRN_HAS_GNUTLS_SUPPORT		0
+
+/* define if you want grouplens (R.I.P.) support */
+#define SLRN_HAS_GROUPLENS		0
+
+/* define if you want support for posting via inews */
+#define SLRN_HAS_INEWS_SUPPORT		0
+
+/* define if you want MIME support */
+#define SLRN_HAS_MIME			1
+
+/* define to make slrn cache Message-IDs to eliminate cross-posts */
+#define SLRN_HAS_MSGID_CACHE		0
+
+/* define if you want NNTP support */
+#define SLRN_HAS_NNTP_SUPPORT		1
+
+/* define if you want slrnpull support */
+#define SLRN_HAS_PULL_SUPPORT		0
+
+/* define if you want slang interpreter support */
+#define SLRN_HAS_SLANG			1
+
+/* define if you want spoiler support */
+#define SLRN_HAS_SPOILERS		1
+
+/* define if you want support for reading from a news spool */
+#define SLRN_HAS_SPOOL_SUPPORT		0
+
+/* define if you want SSL support using OpenSSL */
+#define SLRN_HAS_SSL_SUPPORT		0
+
+/* define if you want to disallow custom From headers */
+#define SLRN_HAS_STRICT_FROM		0
+
+/* define if you want uudeview support */
+#define SLRN_HAS_UUDEVIEW		0
+
+/* inews command */
+#undef SLRN_INEWS_COMMAND
+
+/* directory for global slrn.rc and newsgroups.dsc */
+#undef SLRN_LIB_DIR
+
+/* sendmail command */
+#undef SLRN_SENDMAIL_COMMAND
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* define if you have va_copy() in stdarg.h */
+#undef VA_COPY
+
+/* define if va_lists can't be copied by value */
+#undef VA_COPY_AS_ARRAY
+
+/* Version number of package */
+#undef VERSION
+
+/* Define to 1 if on AIX 3.
+   System headers sometimes define this.
+   We just want to avoid a redefinition error message.  */
+#ifndef _ALL_SOURCE
+# undef _ALL_SOURCE
+#endif
+
+/* Number of bits in a file offset, on hosts where this is settable. */
+#undef _FILE_OFFSET_BITS
+
+/* Define for large files, on AIX-style hosts. */
+#undef _LARGE_FILES
+
+/* Define to `int' if <sys/types.h> doesn't define. */
+#undef gid_t
+
+/* Define to `int' if <sys/types.h> does not define. */
+#undef mode_t
+
+/* Define to `int' if <sys/types.h> does not define. */
+#undef pid_t
+
+/* Define to `int' if <sys/types.h> doesn't define. */
+#undef uid_t
+
+/* misc settings copied from the original config.hin file */
+
+#if defined(HAVE_SIGADDSET) && defined(HAVE_SIGEMPTYSET)
+# if defined(HAVE_SIGACTION) && defined(HAVE_SIGPROCMASK)
+#  define SLRN_POSIX_SIGNALS
+# endif
+#endif
+
+#if defined(ultrix) && !defined(__GNUC__)
+# ifndef NO_PROTOTYPES
+#  define NO_PROTOTYPES
+# endif
+#endif
+
+#ifndef REAL_UNIX_SYSTEM
+# define REAL_UNIX_SYSTEM
+#endif
+
+#ifdef _AIX
+# ifndef _POSIX_SOURCE
+#  define _POSIX_SOURCE
+# endif
+# ifndef _ALL_SOURCE
+#  define _ALL_SOURCE
+# endif
+/* This may generate warnings but the fact is that without it, xlc will 
+ * INCORRECTLY inline many str* functions. */
+# undef __STR__
+#endif
+
+#ifndef __unix__
+# define __unix__ 1
+#endif
+
+/* SLTCP_HAS_SSL_SUPPORT gets turned on whenever we use SSL
+ * SLTCP_HAS_GNUTLS_SUPPORT gets turned on when we use GNU TLS for it. */
+#if SLRN_HAS_SSL_SUPPORT == 1
+ #define SLTCP_HAS_SSL_SUPPORT SLRN_HAS_SSL_SUPPORT
+#else
+  #if SLRN_HAS_GNUTLS_SUPPORT == 1
+  #define SLTCP_HAS_SSL_SUPPORT SLRN_HAS_GNUTLS_SUPPORT
+  #define SLTCP_HAS_GNUTLS_SUPPORT SLRN_HAS_GNUTLS_SUPPORT
+  #else
+  #define SLTCP_HAS_SSL_SUPPORT 0
+  #endif
+#endif
+
+#define SLRN_SERVER_ID_NNTP 1
+#define SLRN_SERVER_ID_SPOOL 2
+
+#define SLRN_POST_ID_NNTP 1
+#define SLRN_POST_ID_INEWS 2
+#define SLRN_POST_ID_PULL 3
+
+#define SLRN_PATH_SLASH_CHAR	'/' 

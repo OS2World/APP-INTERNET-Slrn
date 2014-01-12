@@ -1,0 +1,16 @@
+
+I compiled this version for OS/2 with slightly modified settings
+
+#define SLRN_HAS_UUDEVIEW	1
+#define SLRN_HAS_CANLOCK  1
+#define SLRN_HAS_GROUPLENS		1
+
+I used slang 1.4.9 which compiles without any modificatiosn using the 
+shipped Makefile.OS2.
+
+If you want to compile slang yourself you 
+
+Hannes Hromadka <Johannes.Hromadka@qmx.net>
+Vienna, Austria, Europe
+2002-12-24
+

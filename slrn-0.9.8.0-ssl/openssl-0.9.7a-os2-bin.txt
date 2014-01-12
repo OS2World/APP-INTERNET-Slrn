@@ -1,0 +1,27 @@
+                          Upload Information Template for Hobbes.nmsu.edu
+                          ===============================================
+
+        Archive Filename: openssl-0.9.7a-os2-bin.zip 
+       Short Description: OpenSSL-0.9.7a toolkit for OS/2. 
+        Long Description: OpenSSL-0.9.7a toolkit for OS/2 including client program C-header and library files.
+
+      Proposed directory
+           for placement: 
+
+               Your name: Johannes Hromadka
+           Email address: Johannes.Hromadka@gmx.net
+    Program contact name: 
+   Program contact email: 
+             Program URL: http://www.openssl.org/
+
+      Would you like the
+   contact email address
+    included in listings? no
+
+Operating System/Version: os/2 2.1 and higher 
+ Additional requirements: emx runtime 
+
+                Replaces: openssl-0.9.6a-cli-os2.zip
+
+
+

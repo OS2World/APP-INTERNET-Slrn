@@ -1,0 +1,36 @@
+=============================================================================
+			   S L R N    O S / 2  -  R E A D M E
+=============================================================================
+
+This is a recompiled version of slrn for OS/2 with SSL support
+You need SSL.DLL and CRYPTO.DLL from the openssl 0.9.7a OS/2 binary package 
+This package can be found on ho
+
+
+Please read INSTALL.os2 in the doc directory on how to setup slrn.
+
+
+I compiled this version for OS/2 with slightly modified settings
+You can find my Makefile.os2 and config.h in the src directory.
+
+I changed the settings below:
+
+#define SLRN_HAS_UUDEVIEW	1
+#define SLRN_HAS_CANLOCK  1
+#define SLRN_HAS_GROUPLENS		1
+
+I used slang 1.4.9 which compiles without any modifications using the 
+shipped Makefile.OS2.
+
+If you want to compile slrn yourself with my settings you need the following 
+packages:
+
+slang      http://www.s-lang.org
+uudeview   http://www.fpx.de/fp/Software/UUDeview/
+libcanlock http://cssri.meowing.net/
+
+
+Hannes Hromadka <Johannes.Hromadka@qmx.net>
+Vienna, Austria, Europe
+2003-08-26
+
